@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>M. P. Rathke, Inc. Organ Builders</title>
+	<meta name="description" content="A sidebar menu as seen on the Google Nexus 7 website" />
+	<meta name="keywords" content="google nexus 7 menu, css transitions, sidebar, side menu, slide out menu" />
+	<meta name="author" content="Codrops" />
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="apple-touch-icon" href="icon.png">
+
+	<link rel="stylesheet" href="css/layout.css">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/anim.css">
+	<meta name="theme-color" content="#388e3c">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/cards.css">
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/slider.css" />
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<style>
+	p {
+		font-family: "Playfair Display", serif;
+		color: #aaa;
+		font-size: 1rem;
+		line-height: 25px;
+		vertical-align: baseline;
+		letter-spacing: normal;
+		word-spacing: 0px;
+		font-weight: 400;
+		font-style: normal;
+		font-variant: normal;
+margin: 1rem auto;
+	}
+.p2{
+padding:2rem;
+}
+.p5{
+	padding: 5rem;
+}
+	section h2 {
+
+		font-family: "Playfair Display", serif;
+		color: #43283a;
+		font-size: 34px;
+		line-height: 44px;
+		vertical-align: baseline;
+		letter-spacing: normal;
+		word-spacing: 0px;
+		font-weight: 400;
+		font-style: normal;
+		font-variant: normal;
+		text-align: start;
+		text-transform: uppercase;
+	}
+
+	h1 {
+
+		font-family: "Playfair Display", serif;
+		font-size: 54px;
+		line-height: 44px;
+		vertical-align: baseline;
+		letter-spacing: normal;
+		word-spacing: 0px;
+		font-weight: 400;
+		font-style: normal;
+		font-variant: normal;
+		text-align: start;
+		text-transform: uppercase;
+	}
+
+	.color-r {
+		color: #DA593F;
+	}
+
+	section p {
+
+		font-size: 23px;
+		font-family: "Playfair Display", serif;
+		line-height: 27px;
+		vertical-align: baseline;
+		letter-spacing: normal;
+		word-spacing: 0px;
+		font-weight: 400;
+	}
+
+	.card0,
+	.card1,
+	.card2,
+	.card3 {
+		background: rgba(255, 255, 255, 0.9);
+	}
+</style>
+<style>
+	.product {
+		height: 500px;
+	}
+</style>
+<style>
+	.imgSide,
+	.trendPost,
+	.resto {
+		height: vh;
+	}
+
+	.imgSide {
+		height: 720px;
+	}
+
+	.restoImg {
+		height: 768px;
+	}
+
+	.imgSide {
+		background-image: url("images/side2.jpg");
+		background-repeat: no-repeat;
+		background-position: bottom;
+	}
+
+	.restoImg {
+		background-image: url("images/resto.jpg");
+		background-repeat: no-repeat;
+		background-position: bottom;
+	}
+
+	#footer h4 {
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+		font-size: 17px;
+		font-weight: 400;
+		line-height: 20px;
+		text-transform: uppercase;
+		color: #aaaaaa;
+	}
+
+	#footer ul li a {
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 20px;
+		color: #777777;
+	}
+
+	#footer input {
+		width: 350px;
+		border: 1px solid #777777;
+		border-radius: 2em;
+		padding: auto 1em;
+	}
+
+	#footer button {
+		border-radius: 2em;
+	}
+
+
+
+	@media screen and (max-width: 1000px) {
+
+		#footer input {
+			width: 200px;
+			border: 1px solid #777777;
+			border-radius: 2em;
+			padding: auto 1em;
+		}
+	}
+
+	#footer h4 {
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+		font-size: 17px;
+		font-weight: 400;
+		line-height: 20px;
+		text-transform: uppercase;
+		color: #aaaaaa;
+	}
+
+	#footer ul li a {
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 20px;
+		color: #777777;
+	}
+
+	#footer input {
+		width: 300px;
+		border: 1px solid #777777;
+		border-radius: 2em;
+		padding: auto 1em;
+	}
+
+	#footer button {
+		border-radius: 2em;
+	}
+	.bg-black{
+    background:#202529;
+}
+</style>
+
+<body>
+	<div class="container">
+		<ul id="gn-menu" class="gn-menu-main" style="z-index: 10;">
+			<li class="gn-trigger">
+				<a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+				<nav class="gn-menu-wrapper">
+					<div class="gn-scroller">
+						<ul class="gn-menu">
+							<li>
+								<a class="ion-icon ion-icon-home" href="index.html">Home</a>
+							</li>
+							<li>
+								<a class="ion-icon ion-icon-about">Abouts Us</a>
+								<ul class="gn-submenu">
+									<li><a class="ion-icon ion-icon-profile">Company Profile</a></li>
+									<li><a class="ion-icon ion-icon-staff">Staff</a></li>
+								</ul>
+							</li>
+							<li><a class="ion-icon ion-icon-organ">Instruments</a></li>
+							<li><a class="ion-icon ion-icon-restore">Restoration</a></li>
+							<li>
+								<a class="ion-icon ion-icon-archive">Archives</a>
+								<ul class="gn-submenu">
+									<li><a class="ion-icon ion-icon-article">Articles</a></li>
+									<li><a class="ion-icon ion-icon-gallery">Photo Gallery</a></li>
+									<li><a class="ion-icon ion-icon-video">Videos</a></li>
+								</ul>
+							</li>
+							<li><a class="ion-icon ion-icon-compose">Contact Us</a></li>
+						</ul>
+					</div><!-- /gn-scroller -->
+				</nav>
+			</li>
+			<li><a href="">M. P. Rathke</a></li>
+			<li><a class="codrops-icon codrops-icon-organ" href=""><span>
+						Instruments</span></a></li>
+			<li><a class="codrops-icon codrops-icon-video" href=""><span>Video Recordings</span></a></li>
+		</ul>
+		<div class="slideshow-container section">
+
+			<!-- Full-width images with number and caption text -->
+			<div class="mySlides fade">
+				<h2 class="numbertext animated bounceInUp "></h2>
+				<img src="images/1.jpg" style="width:100%">
+				<p class="text animated bounceInDown">Welcome to MP Rathke</h1>
+			</div>
+
+			<div class="mySlides fade">
+				<h2 class="numbertext animated bounceInLeft"></h2>
+				<img src="images/2.jpg" style="width:100%">
+				<h1 class="text animated bounceInRight "></h1>
+			</div>
+
+			<div class="mySlides fade">
+				<h2 class="numbertext animated bounceInRight "></h2>
+				<img src="images/3.jpg" style="width:100%">
+				<h1 class="text animated bounceInLeft "></h1>
+			</div>
+
+			<!-- Next and previous buttons -->
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+
+		<!-- The dots/circles -->
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+		<main>
+			<div class="con">
+				<div class="cover row container" style="padding-top:2rem">
+					<div class="contain col l3 s12" style="margin-top:1rem">
+						<div class="card0">
+							<div class="nike">
+								<div class="circle"></div>
+								<img src="images/opus6.png" alt="">
+							</div>
+							<div class="info">
+								<h1 class="title">OPUS-6</h1>
+								<h3>OPUS-6 ORGAN</h3>
+								<div class="sizes">
+
+								</div>
+								<div class="purchase"><button id="forum">Discover</button></div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="contain1 col l3 s12" style="margin-top:1rem">
+						<div class="card1">
+							<div class="nike1">
+								<div class="circle1"></div>
+								<img src="images/opus7.png" alt="">
+							</div>
+							<div class="info1">
+								<h1 class="title1">OPUS-7</h1>
+								<h3>OPUS-7 ORGAN</h3>
+								<div class="sizes1">
+
+								</div>
+								<div class="purchase1"><button id="classified">Discover</button></div>
+							</div>
+						</div>
+					</div>
+
+
+
+					<div class="contain2 col l3 s12" style="margin-top:1rem">
+						<div class="card2">
+							<div class="nike2">
+								<div class="circle2"></div>
+								<img src="images/Sanbornsmall.png" alt="">
+							</div>
+							<div class="info2">
+								<h1 class="title2">SANBORN</h1>
+								<h3>SANBORN ORGAN
+								</h3>
+								<div class="sizes2">
+
+								</div>
+								<div class="purchase2"><button id="news">Discover</button></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="contain3 col l3 s12" style="margin-top:1rem">
+						<div class="card3">
+							<div class="nike3">
+								<div class="circle3"></div>
+								<img src="images/opus8-lg.png" alt="">
+							</div>
+							<div class="info3">
+								<h1 class="title3">OPUS-8</h1>
+								<h3>OPUS-8 ORGAN</h3>
+								<div class="sizes3">
+
+								</div>
+								<div class="purchase3"><button id="members">Discover</button></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<div class="row cont">
+			<div class="imgSide col l6 s12" data-aos="fade-up-left"></div>
+			<div class="trendPost col l6 s12">
+				<h1 class="center grey-text" data-aos="fade-up">About<span class="color-r"> M.P. Rathke</span> </h1>
+				<p>A graduate of Ball State and Miami Universities, Michael Rathke has studied organ with
+					Ruth Wakeland and Lenora McCroskey. He received his early organ building training with
+					Goulding & Wood, Inc. in Indianapolis; he later joined the staff of C.B. Fisk, Inc. in
+					Gloucester, Massachusetts, where he served a formal five-year apprenticeship
+					as well as a further two years as a voicer and tonal finisher.</p>
+					 <p>After completing his Opus 1, he traveled to England to begin a two-year association with Mander
+						Organs of London, where he assisted in the comprehensive refurbishment of the 1871 Willis
+						organ in London's Royal Albert Hall and restoration of the the 1766 George England, Sr. organ at the
+						Danson Mansion in Kent. During this time, he also participated in the tonal finishing
+						of Fisk's landmark instrument in the Cathedrale in Lausanne, Switzerland.</p>
+						<p>Michael Rathke returned to the U.S. in 2004 to resume organ building under his own name.
+							His focus continues to be the building, restoration, and conservation of fine mechanical-action instruments.</p>
+			</div>
+
+		</div>
+		<div class="row cont">
+			<div class="resto col l6 s12">
+				<h1 class="center grey-text" data-aos="fade-up">Restoration<span class="color-r"> & Maintenance</span>
+				</h1>
+				<p></p>
+			</div>
+			<div class="restoImg col l6 s12" data-aos="fade-up-left"></div>
+
+
+		</div>
+		<section id="footer" class="p5 bg-black center">
+			<h1 data-aos="fade-up" class="center"> <img src="images/logo.png"  class="center"/>
+			</h1>
+
+			<div class="row m-t-3">
+
+				<div class="p2" style="width:90%; margin:auto; border-top:1px solid #777777">
+					<div class="container-fluid grey-text left-align text-darken-1">
+						<div class="col s12 l2" data-aos="fade-up-right">
+							<h4>Company</h4>
+							<ul class="ft">
+
+								<li><a href="">Instruments</a></li>
+								<li><a href="">Management</a></li>
+
+							</ul>
+						</div>
+
+						<div class="col s12 l2" data-aos="fade-up">
+							<h4>Explore</h4>
+							<ul class="ft">
+
+								<li><a href="">About Us</a></li>
+								<li><a href="">Careers</a></li>
+
+							</ul>
+						</div>
+						<div class="col s12 l2" data-aos="fade-down">
+							<h4>Enquiries</h4>
+							<ul class="ft">
+
+								<li><a href="">Help</a></li>
+								<li><a href="">FAQs</a></li>
+								<li><a href="">Videos</a></li>
+								
+							</ul>
+						</div>
+						<div class="col s12 l2" data-aos="fade-down">
+							<h4>Legal</h4>
+							<ul class="ft">
+
+								<li><a href="">Terms of Use</a></li>
+								<li><a href="">Privacy Policy</a></li>
+								
+							</ul>
+						</div>
+						<div class="col s12 l2" data-aos="fade-up">
+							<h4>Contact</h4>
+							<ul class="ft">
+
+								<li><a href="">Contact Us</a></li>
+								
+							</ul>
+						</div>
+						<div class="col s12 l2" data-aos="fade-down-right">
+							<h4>Follow</h4>
+							<ul class="ft">
+
+								<li><a href="" class="fs20">@mprathke</a></li>
+								<li class="m-y-1">
+									<a href=""><i class="fab fa-facebook-square"
+											style="margin:5px;font-size:2em"></i></a>
+									<a href=""><i class="fab fa-instagram" style="margin:5px;font-size:2em"></i></a>
+									<a href=""><i class="fab fa-twitter-square"
+											style="margin:5px;font-size:2em"></i></a>
+									<a href=""><i class="fab fa-pinterest-square"
+											style="margin:5px;font-size:2em"></i></a>
+									<a href=""><i class="fab fa-youtube" style="margin:5px;font-size:2em"></i></a>
+								</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div><!-- /container -->
+	<script src="js/slider.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/gnmenu.js"></script>
+
+	<script>
+		new gnMenu(document.getElementById("gn-menu"));
+	</script>
+
+	<script src="js/all.min.js"></script>
+	<script src="js/cards.js"></script>
+	<script src="js/jquery-1.8.3.min.js" crossorigin="anonymous"></script>
+
+	<script src="js/materialize.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script>
+		AOS.init({
+			// Global settings:
+			disable: false, // accepts following values: "phone", "tablet", "mobile", boolean, expression or function
+			startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
+			initClassName: "aos-init", // class applied after initialization
+			animatedClassName: "aos-animate", // class applied on animation
+			useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+			disableMutationObserver: false, // disables automatic mutations" detections (advanced)
+			debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+			throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+			// Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+			offset: 120, // offset (in px) from the original trigger point
+			delay: 0, // values from 0 to 3000, with step 50ms
+			duration: 1000, // values from 0 to 3000, with step 50ms
+			easing: "ease", // default easing for AOS animations
+			once: false, // whether animation should happen only once - while scrolling down
+			mirror: false, // whether elements should animate out while scrolling past them
+			anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
+
+		})
+	</script>
+	<script>
+		console.log("hello")
+	</script>
+</body>
+
+</html>
