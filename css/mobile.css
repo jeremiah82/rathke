@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  min-height: 100vh;
+  display: flex;
+}
+@font-face {
+  font-family: "raleway-regular";
+  src: url("../fonts/raleway-regular.eot");
+  src: url("../fonts/raleway-regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/raleway-regular.woff") format("woff"),
+    url("../fonts/raleway-regular.ttf") format("truetype"),
+    url("../fonts/raleway-regular.svg#ralewayregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "raleway-bold";
+  src: url("../fonts/raleway-bold.eot");
+  src: url("../fonts/raleway-bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/raleway-bold.woff") format("woff"),
+    url("../fonts/raleway-bold.ttf") format("truetype"),
+    url("../fonts/raleway-bold.svg#ralewaybold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "raleway-semibold";
+  src: url("../fonts/raleway-semibold.eot");
+  src: url("../fonts/raleway-semibold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/raleway-semibold.woff") format("woff"),
+    url("../fonts/raleway-semibold.ttf") format("truetype"),
+    url("../fonts/raleway-semibold.svg#ralewaysemibold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+img#prev {
+  width: 100px;
+  border-radius: 50%;
+}
+.signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0 0.5rem;
+}
+.sideImg {
+  display: none !important;
+  width: 0 !important;
+  background: #388e3c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "raleway-regular", arial;
+  padding: 0 5em;
+}
+.sideImg h1 {
+  margin-bottom: 0.5em;
+  font-family: "Playfair Display", serif;
+  font-size: 34px;
+  line-height: 44px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  font-weight: 400;
+}
+.sideImg p {
+  margin: 0.5em 0;
+}
+
+.signup h1 {
+  margin-bottom: 0.5em;
+  font-family: "Playfair Display", serif;
+  font-size: 44px;
+  line-height: 44px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  font-weight: 400;
+  color: #388e3c;
+  text-align: center;
+}
+.smbtn {
+  display: flex;
+  width: 80%;
+}
+button#smBtn {
+  width: 100%;
+  background: #388e3c;
+  margin: 1rem 0;
+  transition: all 0.3s;
+  color: #fff;
+}
+button#smBtn:hover {
+  background: #e53935;
+}
+/*Forms*/
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 0.75rem 1.5rem;
+
+  box-sizing: border-box;
+  box-shadow: 6px 6px 11px #9f9e9c, -6px -6px 11px #ffffff;
+  color: #43283a !important;
+  border-radius: 5px;
+  transition: all 0.3s;
+  border: none;
+  display: block;
+  margin: 1rem auto;
+  background: #fff;
+}
+label.lbl {
+  margin: 1rem 2rem;
+  display: block;
+  color: #43283a;
+  transition: all 0.3s;
+}
+#upic {
+  width: 200px;
+  height: 50px;
+  background: brown;
+  cursor: pointer;
+  color: #fff;
+  padding: 1em 2em;
+}
+#pic {
+  display: none;
+}
+div.wrapy {
+  width: 80%;
+}
+input[type="text"]:focus,
+input[type="text"]:hover,
+input[type="password"]:focus,
+input[type="password"]:hover,
+input[type="email"]:focus,
+input[type="email"]:hover,
+input[type="tel"]:focus,
+input[type="tel"]:hover,
+textarea:focus,
+textarea.materialize-textarea:hover {
+  box-shadow: inset 3px 3px 7px rgba(136, 165, 191, 0.48),
+    inset -3px -3px 7px #ffffff;
+  transition: box-shadow 399ms ease-in-out;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #43283a;
+  opacity: 1; /* Firefox */
+}
+.pla::placeholder {
+  color: #f8f7f3;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #43283a;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #43283a;
+}
+input.textinput {
+  width: 100%;
+}
+/**/

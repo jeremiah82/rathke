@@ -1,0 +1,260 @@
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+.cover {
+
+  font-family: "Poppins", sans-serif;
+
+  min-height: 100vh;
+
+  /* display: flex;
+
+  justify-content: center;
+
+  align-items: center; */
+
+  perspective: 1000px;
+
+}
+
+.contain,
+
+.contain1,
+
+.contain2,
+
+.contain3 {
+
+  /* width: 50%; */
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+.card0,
+
+.card1,
+
+.card2,
+
+.card3 {
+
+  transform-style: preserve-3d;
+
+  min-height: 80vh;
+
+  /* width: 20rem; */
+
+  border-radius: 30px;
+
+  padding: 0rem 2rem;
+
+  background:#fff;
+
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.2);
+
+}
+
+.nike img,
+
+.nike1 img,
+
+.nike2 img,
+
+.nike3 img {
+
+  width: 12rem;
+
+  z-index: 2;
+
+  transition: all 0.75s ease-out;
+
+}
+
+.nike,
+
+.nike1,
+
+.nike2,
+
+.nike3 {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  min-height: 35vh;
+
+}
+
+.circle,
+
+.circle1,
+
+.circle2,
+
+.circle3 {
+
+  width: 10rem;
+
+  height: 10rem;
+
+  background: linear-gradient(
+
+    to right,
+
+    rgba(175, 113, 63, 0.75),
+
+    rgba(220, 223, 219, 0.75)
+
+  );
+
+  position: absolute;
+
+  border-radius: 50%;
+
+  z-index: 1;
+
+}
+
+.info h1,
+
+.info1 h1,
+
+.info2 h1,
+
+.info3 h1 {
+
+  font-size: 2rem;
+
+  padding: 0;
+
+  margin: 0;
+
+  transition: all 0.75s ease-out;
+
+}
+
+.info h3,
+
+.info1 h3,
+
+.info2 h3,
+
+.info3 h3 {
+
+  font-size: 1.1rem;
+
+  color: #585858;
+
+  padding: 1rem 0;
+
+  font-weight: lighter;
+
+  transition: all 0.75s ease-out;
+
+}
+
+.sizes,
+
+.sizes1,
+
+.sizes2,
+
+.sizes3 {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  transition: all 0.75s ease-out;
+
+}
+
+.sizes button,
+
+.sizes1 button,
+
+.sizes2 button,
+
+.sizes3 button {
+
+  padding: 0.5rem 1rem;
+
+  border: none;
+
+  background: none;
+
+  cursor: pointer;
+
+  border-radius: 30px;
+
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+  font-weight: bold;
+
+  color: #585858;
+
+}
+
+button.active {
+
+  background: #585858;
+
+  color: #fff;
+
+}
+
+.purchase,
+
+.purchase1,
+
+.purchase2,
+
+.purchase3 {
+
+  margin-top: 5rem;
+
+}
+
+.purchase button,
+
+.purchase1 button,
+
+.purchase2 button,
+
+.purchase3 button {
+
+  width: 100%;
+
+  padding: 1rem 0rem;
+
+  background: #f54642;
+
+  border: none;
+
+  cursor: pointer;
+
+  border-radius: 30px;
+
+  font-weight: bolder;
+
+  color: #fff;
+
+  transition: all 0.75s ease-out;
+
+}
+

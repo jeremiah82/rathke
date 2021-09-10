@@ -1,0 +1,754 @@
+.bg-black{
+    background:#202529;
+}
+
+body {
+    /* box-shadow:inset 0 0 0 2000px rgba(51, 8, 109, 0.3);
+    background-image: url(../assets/corolla5.jpg); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+* {
+
+    box-sizing: border-box;
+}
+a.btn{
+    border-radius: 5px;
+    background: #fff;
+    color:#333;
+    background-color: #fff;
+  
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+}
+a.btn:focus,a.btn:hover{
+    
+    box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+    -9px -9px 16px rgba(255, 255, 255, 0.5),
+     inset 3px 3px 7px rgba(136, 165, 191, 0.48), 
+    inset -3px -3px 7px #FFFFFF;
+  background: linear-gradient(318.32deg, rgba(163, 177, 198, 0.1) 0%, rgba(163, 177, 198, 0.1) 55%, rgba(163, 177, 198, 0.25) 100%);
+          transition: box-shadow 399ms ease-in-out;
+      }
+      
+     
+li.avatar{
+padding-bottom:10px;
+display: block;
+height:0px;
+
+  
+}
+
+section.sec{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap:2rem;
+    background: #fff;
+}
+
+.xs {
+    font-size: 0.75rem
+}
+
+.rounded-pill {
+    border-radius: 16px;
+}
+
+.fs12 {
+    font-size: 12px;
+}
+
+.fs14 {
+    font-size: 14px;
+}
+
+.fs16 {
+    font-size: 16px;
+}
+
+.fs20 {
+    font-size: 20px;
+}
+
+#top .owl-carousel .item .product {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#top .owl-carousel .item .product a {
+    overflow: hidden;
+}
+
+#top .owl-carousel .item .product img {
+    transition: transform 0.5s ease;
+}
+
+#top .owl-carousel .item .product img:hover {
+    transform: scale(1.1);
+}
+
+#top .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+
+.greys {
+    background: #DEDEDE;
+}
+
+#top .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+
+#top .owl-carousel .owl-nav button.owl-prev span,
+#top .owl-carousel .owl-nav button.owl-next span {
+    font-size: 35px;
+    color: #003859;
+    padding: 0 1rem;
+}
+
+#top .owl-carousel .owl-nav button.owl-prev span {
+    margin-left: -4rem;
+}
+
+#top .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+
+#top .owl-carousel .owl-nav button.owl-next span {
+    margin-right: -4rem;
+}
+
+/*   Special Price Section Template */
+#special-price .grid .grid-item {
+    margin-right: 1.2rem;
+    margin-top: 1rem;
+}
+
+
+.flblack {
+    border-radius: 50px;
+    background: #212121;
+    box-shadow: 20px 20px 60px #1c1c1c,
+        -20px -20px 60px #262626;
+}
+
+.slider {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.py-2 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.dropdown-content .dropdown-content a {
+
+    font-size: 0.5em;
+}
+
+.px-2 {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+h3 {
+    line-height: 2em;
+}
+
+.shad {
+    border-radius: 33px;
+    background: #212121;
+    box-shadow: inset 35px 35px 70px #171717,
+        inset -35px -35px 70px #2b2b2b;
+}
+
+.item {
+    margin-right: 2em;
+}
+
+.shad-white {
+    border-radius: 33px;
+    background: #F9FBE7;
+    box-shadow: 35px 35px 70px #aeb0a2,
+        -35px -35px 70px #ffffff;
+}
+
+#filters {
+    text-align: right;
+}
+
+#about,
+#included,#oem {
+    background: #EBEBEB;
+}
+
+p {
+    color: #333333;
+    font-family: Helvetica,'Nunito Sans', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+
+}
+
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 48px;
+    color: #424242;
+    letter-spacing: 0.1em;
+    line-height: 145%;
+    text-transform: lowercase;
+    font-variant: small-caps;
+}
+
+h1.about,h1.oem {
+    font-size: 53px;
+    line-height: 64px;
+    color: #101013;
+    text-transform: none;
+    font-variant: normal;
+    letter-spacing: 0;
+}
+
+h3.about {
+    font-size: 47px;
+    line-height: 47px;
+    color: #4c4c4c;
+    font-weight: 300;
+    text-transform: lowercase;
+    font-variant: small-caps;
+    letter-spacing: 0;
+}
+h4.about {
+    font-size: 37px;
+    line-height: 47px;
+    
+    font-weight: 300;
+    text-transform: lowercase;
+    font-variant: small-caps;
+    letter-spacing: 0;
+}
+h2.about {
+    font-size: 23px;
+    line-height: 27px;
+
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0;
+}
+
+#about p,#oem p {
+    color: #333333;
+    font-family: "Nunito Sans", sans-serif;
+    color: #19191d;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+p.about {
+    color: #484848;
+    font-family: "Nunito Sans", sans-serif;
+    color: #19191d;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 400;
+}
+
+h1.about>span {
+    font-size: 53px;
+    line-height: 64px;
+    color: #da593f;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.color-r {
+    color: #da593f;
+}
+
+.bg-red {
+    background: #da593f;
+}
+
+.smaller {
+    font-family: serif;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    line-height: 145%;
+    text-transform: lowercase;
+    font-variant: small-caps;
+}
+
+.bigger {
+    font-family: serif;
+    font-size: 42px;
+    letter-spacing: 0.1em;
+    line-height: 14%;
+    text-transform: lowercase;
+    font-variant: small-caps;
+}
+
+p.ap {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #737373;
+}
+
+#teampic {
+    background-image: url("assets/team.jpg");
+    width: 100%;
+    height: auto;
+}
+
+section.nomag {
+    margin-top: 0;
+}
+
+.bligth {
+    background: #101013;
+}
+
+.pinks {
+    background: #D37553;
+}
+
+.navfont {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.87)
+}
+
+.my-icon {
+    font-size: 14px;
+    margin-right: 14px;
+    margin-left: 14px;
+    color: #666666;
+}
+
+.my-ico {
+    font-size: 14px;
+    margin-right: 14px;
+
+    color: #666666;
+}
+
+.fs32 {
+    font-size: 90%;
+
+}
+
+.ml-n {
+    margin-left: -1.2rem;
+}
+
+.bg-red:hover {
+    background: #da593f;
+}
+
+#footer h4 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+}
+
+#footer ul li a {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #777777;
+}
+
+#footer input {
+    width: 350px;
+    border: 1px solid #777777;
+    border-radius: 2em;
+    padding: auto 1em;
+}
+
+#footer button {
+    border-radius: 2em;
+}
+
+.p-y-5 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+@media screen and (max-width: 1000px) {
+ 
+#footer input {
+    width: 200px;
+    border: 1px solid #777777;
+    border-radius: 2em;
+    padding: auto 1em;
+}
+  
+ 
+}
+
+.sidepic li {
+    padding: 10px;
+    margin: 1rem auto;
+    border: 2px solid #cccccc;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+}
+
+.sidepic li:hover {
+
+    border: 2px solid #dddddd;
+}
+
+.circle {
+    border-radius: 16px;
+}
+
+.container {
+    width: 90%;
+}
+
+div#tech {
+    background: url("asset/zn-bro1/bg.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.nobg {
+    background: none;
+}
+
+.card-content p {
+    color: #eeeeee;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#tech span.card-title {
+    color: #b9b9b9;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.pzz {
+    padding-top: 0.1rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+}
+
+h2.spec {
+    color: #737373;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    line-height: 31px;
+    font-size: 2rem;
+}
+
+ 
+
+.xs {
+    font-size: 0.75rem
+}
+
+.rounded-pill {
+    border-radius: 16px;
+}
+
+.fs12 {
+    font-size: 12px;
+}
+
+.fs14 {
+    font-size: 14px;
+}
+
+.fs16 {
+    font-size: 16px;
+}
+
+.fs20 {
+    font-size: 20px;
+}
+
+#top .owl-carousel .item .product {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#top .owl-carousel .item .product a {
+    overflow: hidden;
+}
+
+#top .owl-carousel .item .product img {
+    transition: transform 0.5s ease;
+}
+
+#top .owl-carousel .item .product img:hover {
+    transform: scale(1.1);
+}
+
+#top .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+
+.greys {
+    background: #DEDEDE;
+}
+
+#top .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+
+#top .owl-carousel .owl-nav button.owl-prev span,
+#top .owl-carousel .owl-nav button.owl-next span {
+    font-size: 35px;
+    color: #003859;
+    padding: 0 1rem;
+}
+
+/*   Special Price Section Template */
+#special-price .grid .grid-item {
+    margin-right: 1.2rem;
+    margin-top: 1rem;
+}
+
+
+.flblack {
+    border-radius: 50px;
+    background: #212121;
+    box-shadow: 20px 20px 60px #1c1c1c,
+        -20px -20px 60px #262626;
+}
+
+.slider {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.py-2 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.dropdown-content .dropdown-content a {
+
+    font-size: 0.5em;
+}
+
+.px-2 {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+h3 {
+    line-height: 2em;
+}
+
+.shad {
+    border-radius: 33px;
+    background: #212121;
+    box-shadow: inset 35px 35px 70px #171717,
+        inset -35px -35px 70px #2b2b2b;
+}
+
+.item {
+    margin-right: 2em;
+}
+
+.shad-white {
+    border-radius: 33px;
+    background: #F9FBE7;
+    box-shadow: 35px 35px 70px #aeb0a2,
+        -35px -35px 70px #ffffff;
+}
+
+#filters {
+    text-align: right;
+}
+
+#about {
+    background: #DEDEDE;
+}
+
+p {
+    color: #737373;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+
+}
+
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 48px;
+    color: #424242;
+    letter-spacing: 0.1em;
+    line-height: 145%;
+    text-transform: lowercase;
+    font-variant: small-caps;
+}
+
+h1.about {
+    font-size: 53px;
+    line-height: 64px;
+    color: #101013;
+    text-transform: none;
+    font-variant: normal;
+    letter-spacing: 0;
+}
+
+h1.about>span {
+    font-size: 53px;
+    line-height: 64px;
+    color: #da593f;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.color-r {
+    color: #da593f;
+}
+
+.bg-red {
+    background: #da593f;
+}
+
+.smaller {
+    font-family: serif;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    line-height: 145%;
+    text-transform: lowercase;
+    font-variant: small-caps;
+}
+
+.bigger {
+    font-family: serif;
+    font-size: 42px;
+    letter-spacing: 0.1em;
+    line-height: 145%;
+    text-transform: lowercase;
+    font-variant: small-caps;
+}
+
+p.ap {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: justify;
+
+    color: #737373;
+}
+
+#teampic {
+    background-image: url("assets/team.jpg");
+    width: 100%;
+    height: auto;
+}
+
+section.nomag {
+    margin-top: 0;
+}
+
+.bligth {
+    background: #101013;
+}
+
+.pinks {
+    background: #D37553;
+}
+
+
+
+.my-icon {
+    font-size: 14px;
+    margin-right: 14px;
+    margin-left: 14px;
+    color: #666666;
+}
+
+.my-ico {
+    font-size: 14px;
+    margin-right: 14px;
+
+    color: #666666;
+}
+
+.fs32 {
+    font-size: 90%;
+
+}
+
+.ml-n {
+    margin-left: -1.2rem;
+}
+
+.bg-red:hover {
+    background: #da593f;
+}
+
+#footer h4 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+}
+
+#footer ul li a {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #777777;
+}
+
+#footer input {
+    width: 300px;
+    border: 1px solid #777777;
+    border-radius: 2em;
+    padding: auto 1em;
+}
+
+#footer button {
+    border-radius: 2em;
+}
+    nav ul li a {
+        color: #ffffff;
+    }
+
+    .dropchange {
+        padding-left: 1rem;
+    }
+    
+    section{
+         overflow:hidden;
+    }
